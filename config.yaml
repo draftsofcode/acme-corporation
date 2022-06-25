@@ -3,7 +3,7 @@ languageCode: en-us
 title: Acme Corporation
 theme: Eclectic
 author:
-  twitter: "https://www.twitter.com/rodneyjwoodruff"
+  twitter: "https://twitter.com/draftsofcode"
   email: "draftsofcode@draftsofcode.dev"
   name: "Acme Corporation"
 
@@ -22,9 +22,8 @@ params:
   copyright: "Copyright &copy: 2022 Drafts of Code. All Rights Reserved"
   footer:
   - title: About
-  content: >
-    Acme Corporation is the world's leading manufacturer of digital shapes. From squares and circles to traingles and hexagons, we have it all. Browse through our collection of various forms with different thicknesses and line styles. We shape the world. You live in it.
-
+    content: >
+      Acme Corporation is the world's leading manufacturer of digital shapes. From squares and circles to traingles and hexagons, we have it all. Browse through our collection of various forms with different thicknesses and line styles. We shape the world. You live in it.
 
   - title: Recent Blog Posts
     recents: blog
