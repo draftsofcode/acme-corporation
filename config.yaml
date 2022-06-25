@@ -1,3 +1,33 @@
-baseURL: http://example.org/
+baseURL: http://localhost:1313/
 languageCode: en-us
-title: My New Hugo Site
+title: Acme Corporation
+theme: Eclectic
+author:
+  twitter: "https://www.twitter.com/rodneyjwoodruff"
+  email: "draftsofcode@draftsofcode.dev"
+  name: "Acme Corporation"
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about
+      weight: 100
+    - identifier: contact
+      name: Contact
+      url: /contact
+      weight: 200
+params:
+  color: "#4f46e5"
+  copyright: "Copyright &copy: 2022 Drafts of Code. All Rights Reserved"
+  footer:
+  - title: About
+  content: >
+    Acme Corporation is the world's leading manufacturer of digital shapes. From squares and circles to traingles and hexagons, we have it all. Browse through our collection of various forms with different thicknesses and line styles. We shape the world. You live in it.
+
+
+  - title: Recent Blog Posts
+    recents: blog
+    recentCount: 7
+  - title: Contact Us
+    contact: true
